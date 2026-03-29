@@ -1,4 +1,4 @@
-mport sys
+import sys
 import subprocess
 
 # Kütüphane yüklü değilse zorla yükletiyoruz
