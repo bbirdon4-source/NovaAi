@@ -1,4 +1,4 @@
-import sys
+mport sys
 import subprocess
 
 # Kütüphane yüklü değilse zorla yükletiyoruz
@@ -10,7 +10,7 @@ except ImportError:
 
 import streamlit as st
 # Senin aldığın API anahtarını buraya bağladık!
-genai.configure(api_key="AIzaSyDLkWlueyBkqInr_IoJTS5DMnZwmzHSTGQ")
+genai.configure(api_key="AIzaSyCOVU63_pQkpw2nkWXAo4jsGINy6bNDFA0")
 
 # Sayfa ayarları ve başlık
 st.set_page_config(page_title="NovaAi", page_icon="", layout="centered")
