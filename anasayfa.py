@@ -1,9 +1,14 @@
+import sys
+import subprocess
+
+# Kütüphane yüklü değilse zorla yükletiyoruz
+try:
+    import google.generativeai as genai
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "google-generativeai"])
+    import google.generativeai as genai
+
 import streamlit as st
-import google.generativeai as genai
-import os
-
-os.system("pip install google-generativeai")
-
 # Senin aldığın API anahtarını buraya bağladık!
 genai.configure(api_key="AIzaSyDLkWlueyBkqInr_IoJTS5DMnZwmzHSTGQ")
 
