@@ -1,8 +1,8 @@
+import streamlit as st
+import google.generativeai as genai
 import os
 
 os.system("pip install google-generativeai")
-import google.generativeai 
-as genaiimport streamlit as stimport google.generativeai as genai
 
 # Senin aldığın API anahtarını buraya bağladık!
 genai.configure(api_key="AIzaSyDLkWlueyBkqInr_IoJTS5DMnZwmzHSTGQ")
