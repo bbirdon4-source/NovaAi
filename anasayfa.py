@@ -48,7 +48,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title(NovaAi")
+st.title("NovaAi")
 st.write("<p style='text-align: center; color: #a0aec0;'>Artık gerçek bir beynim var! Bana her şeyi sorabilirsin.</p>", unsafe_allow_html=True)
 
 # Kullanıcıdan girdi alma
